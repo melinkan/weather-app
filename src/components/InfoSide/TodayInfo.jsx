@@ -19,17 +19,14 @@ export function TodayInfo() {
           <span className="value">
             {Math.round(current.uvi)} ({uvLevel(Math.round(current.uvi))})
           </span>
-          <div className="clear"></div>
         </div>
         <div className="humidity">
           <span className="title">HUMIDITY</span>
           <span className="value">{current.humidity} %</span>
-          <div className="clear"></div>
         </div>
         <div className="wind">
           <span className="title">WIND</span>
           <span className="value">{Math.round(current.wind_speed)} km/h</span>
-          <div className="clear"></div>
         </div>
       </div>
     </div>
