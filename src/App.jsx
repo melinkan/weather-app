@@ -5,9 +5,11 @@ import { WeatherProvider } from "./contexts/WeatherContext";
 function App() {
   return (
     <WeatherProvider>
-      <div className="container">
-        <WeatherSide />
-        <InfoSide />
+      <div className="wrapper">
+        <div className="container">
+          <WeatherSide />
+          <InfoSide />
+        </div>
       </div>
     </WeatherProvider>
   );
