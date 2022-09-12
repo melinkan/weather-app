@@ -195,6 +195,10 @@ body {
   margin-right: 5px;
 }
 
+.location-button option {
+  color: #000;
+}
+
 @media screen and (max-width: 600px) {
   .wrapper {
     height: max-content;
