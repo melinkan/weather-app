@@ -1,5 +1,5 @@
 # Weather App
-Weather forecast for Turkey's cities.
+Weather forecast for Nigerian's cities.
 
 This web app built with using [Vite](https://vitejs.dev/) + [React](https://reactjs.org/).
 
